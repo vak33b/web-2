@@ -4,10 +4,83 @@
 }
 
 body{
-    
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 }
 
 .header{
-    width: 100%;
     box-sizing: border-box;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color:#FFFFFF;
+    height: 100px;
+    width: 1440px;
+}
+.menu__ul{
+    padding: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__link{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000000;
+}
+.menu__link:hover{
+    color: #05a88d;
+}
+.menu__li{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+.menu__logo{
+    color: #05a88d;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 35px;
+    margin-right: 150px;
+    text-decoration: none;
+}
+.menu__signup{
+    padding-top: 12.5px;
+    padding-right: 21.5px;
+    padding-bottom: 12.5px;
+    padding-left: 21.5px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19.5px;
+    width: 105px;
+    margin-right: 69.5px;
+    border-radius: 3px;
+    border: 1px solid #05A88D;
+    text-decoration: none;
+    background-color: transparent;
+    color: #05A88D;
+}
+.menu__login{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-right: 70.5px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: #05A88D;
+}
+.menu__login:hover{
+    text-decoration: underline;
+}
+.menu__signup:hover{
+    background-color: #05a88d;
+    color: #FFFFFF;
+}
+.btn{
+    display: flex;
+    align-items: center;
 }
